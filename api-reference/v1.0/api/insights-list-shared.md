@@ -16,13 +16,10 @@ Calculated insight that includes the list of documents shared with a user.
 This insight includes documents hosted on OneDrive/SharePoint in the user's Microsoft 365 tenant that are shared with the user, and documents that are attached as files and sent to the user.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Sites.Read.All, Sites.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Sites.Read.All, Sites.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "insights_list_shared" } -->
+[!INCLUDE [permissions-table](../includes/permissions/insights-list-shared-permissions.md)]
 
 ## HTTP request
 Get a list of documents shared with the signed-in user.

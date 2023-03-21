@@ -19,11 +19,8 @@ Read the properties and relationships of an [inboundFileFlow](../resources/indus
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                               |
-| :------------------------------------- | :------------------------------------------------------------------------ |
-| Delegated (work or school account)     | IndustryData-InboundFlow.Read.All, IndustryData-InboundFlow.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported.                                                            |
-| Application                            | IndustryData-InboundFlow.Read.All, IndustryData-InboundFlow.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "industrydata_inboundfileflow_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/industrydata-inboundfileflow-get-permissions.md)]
 
 ## HTTP request
 

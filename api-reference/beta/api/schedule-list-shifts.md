@@ -16,13 +16,10 @@ Get the list of [shift](../resources/shift.md) instances in a [schedule](../reso
 
 ## Permissions
 
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Schedule.Read.All, Group.Read.All,Schedule.ReadWrite.All, Group.ReadWrite.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Schedule.Read.All, Schedule.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "schedule_list_shifts" } -->
+[!INCLUDE [permissions-table](../includes/permissions/schedule-list-shifts-permissions.md)]
 
 ## HTTP request
 

@@ -20,13 +20,10 @@ Adds rows to the end of the table. Note that the API can accept multiple rows da
 This request might occasionally receive a 504 HTTP error. The appropriate response to this error is to repeat the request.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.ReadWrite    |
-|Delegated (personal Microsoft account) | Files.ReadWrite    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "tablerowcollection_add" } -->
+[!INCLUDE [permissions-table](../includes/permissions/tablerowcollection-add-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

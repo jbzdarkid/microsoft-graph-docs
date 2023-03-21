@@ -15,13 +15,10 @@ Namespace: microsoft.graph
 Read the properties and relationships of an [organizationalBrandingLocalization](../resources/organizationalbrandinglocalization.md) object. To retrieve a localization branding object, specify the value of **id** in the URL.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | User.Read, Organization.Read.All, User.ReadBasic.All, User.Read.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Organization.Read.All |
+<!-- { "blockType": "permissions", "name": "organizationalbrandinglocalization_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/organizationalbrandinglocalization-get-permissions.md)]
 
 ## HTTP request
 

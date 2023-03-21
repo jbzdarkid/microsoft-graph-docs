@@ -46,13 +46,10 @@ Additionally, if the meeting location has been set up as a resource, or if the e
 
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Calendars.ReadWrite    |
-|Delegated (personal Microsoft account) | Calendars.ReadWrite    |
-|Application | Calendars.ReadWrite |
+<!-- { "blockType": "permissions", "name": "user_post_events" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-post-events-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

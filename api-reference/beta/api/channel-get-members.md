@@ -17,13 +17,10 @@ Get a [conversationMember](../resources/conversationmember.md) from a [channel](
 
 ## Permissions
 
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission Type|Permissions (from least to most privileged)|
-|---------|-------------|
-|Delegated (work or school account)|ChannelMember.Read.All, ChannelMember.ReadWrite.All |
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|ChannelMember.Read.All, ChannelMember.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "channel_get_members" } -->
+[!INCLUDE [permissions-table](../includes/permissions/channel-get-members-permissions.md)]
 
 
 ## HTTP request

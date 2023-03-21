@@ -15,13 +15,10 @@ Namespace: microsoft.graph.search
 Create a new [bookmark](../resources/search-bookmark.md) object.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)| SearchConfiguration.Read.All, SearchConfiguration.ReadWrite.All |
-|Delegated (personal Microsoft account)| Not supported. |
-|Application| SearchConfiguration.Read.All, SearchConfiguration.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "search_searchentity_post_bookmarks" } -->
+[!INCLUDE [permissions-table](../includes/permissions/search-searchentity-post-bookmarks-permissions.md)]
 
 ## HTTP request
 

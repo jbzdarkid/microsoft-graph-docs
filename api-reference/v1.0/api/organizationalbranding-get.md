@@ -17,13 +17,10 @@ If the **Accept-Language** header is set to an existing locale identified by the
 This method retrieves only non-Stream properties, for example, **usernameHintText** and **signInPageText**. To retrieve Stream types of the default branding, for example, **bannerLogo** and **backgroundImage**, use the [GET organizationalBrandingLocalization](organizationalbrandinglocalization-get.md) method.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | User.Read, Organization.Read.All, User.ReadBasic.All, User.Read.All |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application                            | Organization.Read.All |
+<!-- { "blockType": "permissions", "name": "organizationalbranding_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/organizationalbranding-get-permissions.md)]
 
 ## HTTP request
 

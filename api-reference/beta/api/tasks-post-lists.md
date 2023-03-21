@@ -17,13 +17,10 @@ Namespace: microsoft.graph
 Create a new [baseTaskList](../resources/basetasklist.md) object.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Tasks.ReadWrite|
-|Delegated (personal Microsoft account)|Tasks.ReadWrite|
-|Application|Not supported|
+<!-- { "blockType": "permissions", "name": "tasks_post_lists" } -->
+[!INCLUDE [permissions-table](../includes/permissions/tasks-post-lists-permissions.md)]
 
 ## HTTP request
 

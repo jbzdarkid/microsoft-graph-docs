@@ -25,11 +25,8 @@ The following prerequisite resources are required when you create an **inboundFl
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | IndustryData-InboundFlow.ReadWrite.All      |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | IndustryData-InboundFlow.ReadWrite.All      |
+<!-- { "blockType": "permissions", "name": "industrydata_inboundflow_post" } -->
+[!INCLUDE [permissions-table](../includes/permissions/industrydata-inboundflow-post-permissions.md)]
 
 ## HTTP request
 

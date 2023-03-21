@@ -34,13 +34,10 @@ The recommended delay between GETs is 5 seconds.
 
 ## Permissions
 
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)     | Team.Create, Group.ReadWrite.All**, Directory.ReadWrite.All** |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application                            | Team.Create, Group.ReadWrite.All**, Directory.ReadWrite.All** |
+<!-- { "blockType": "permissions", "name": "team_clone" } -->
+[!INCLUDE [permissions-table](../includes/permissions/team-clone-permissions.md)]
 
 > **Note**: Permissions marked with ** are supported only for backward compatibility. We recommend that you update your solutions to use an alternative permission listed in the previous table and avoid using these permissions going forward.
 

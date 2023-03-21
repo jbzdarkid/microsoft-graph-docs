@@ -19,11 +19,8 @@ Get statistics for an [industryDataRun](../resources/industrydata-industrydataru
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | IndustryData-Run.Read.All                   |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | IndustryData-Run.Read.All                   |
+<!-- { "blockType": "permissions", "name": "industrydata_industrydatarun_getstatistics" } -->
+[!INCLUDE [permissions-table](../includes/permissions/industrydata-industrydatarun-getstatistics-permissions.md)]
 
 ## HTTP request
 

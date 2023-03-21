@@ -13,13 +13,10 @@ Namespace: microsoft.graph
 
 Get all the user's calendars (`/calendars` navigation property), get the calendars from the default calendar group or from a specific calendar group. 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Calendars.Read, Calendars.Read.Shared, Calendars.ReadWrite    |
-|Delegated (personal Microsoft account) | Calendars.Read, Calendars.Read.Shared, Calendars.ReadWrite    |
-|Application | Calendars.Read, Calendars.ReadWrite |
+<!-- { "blockType": "permissions", "name": "user_list_calendars" } -->
+[!INCLUDE [permissions-table](../includes/permissions/user-list-calendars-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

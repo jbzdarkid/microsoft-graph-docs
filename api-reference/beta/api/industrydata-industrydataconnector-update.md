@@ -19,11 +19,8 @@ Update the properties of an [industryDataConnector](../resources/industrydata-in
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-| :------------------------------------- | :------------------------------------------ |
-| Delegated (work or school account)     | IndustryData-DataConnector.ReadWrite.All    |
-| Delegated (personal Microsoft account) | Not supported.                              |
-| Application                            | IndustryData-DataConnector.ReadWrite.All    |
+<!-- { "blockType": "permissions", "name": "industrydata_industrydataconnector_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/industrydata-industrydataconnector-update-permissions.md)]
 
 ## HTTP request
 

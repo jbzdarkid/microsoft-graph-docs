@@ -19,11 +19,8 @@ Retrieve an upload session used to supply file-based data to an inbound flow.
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)                                 |
-| :------------------------------------- | :-------------------------------------------------------------------------- |
-| Delegated (work or school account)     | IndustryData-DataConnector.Upload, IndustryData-DataConnector.ReadWrite.All |
-| Delegated (personal Microsoft account) | Not supported.                                                              |
-| Application                            | IndustryData-DataConnector.Upload, IndustryData-DataConnector.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "industrydata_azuredatalakeconnector_getuploadsession" } -->
+[!INCLUDE [permissions-table](../includes/permissions/industrydata-azuredatalakeconnector-getuploadsession-permissions.md)]
 
 ## HTTP request
 

@@ -21,14 +21,11 @@ If you want to obtain long-lived embeddable links, use the [createLink][] API in
 
 ## Permissions
 
-One of the following permissions is required to call this API.
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged)
-|:---------------------------------------|:-------------------------------------------
-| Delegated (work or school account)     | Files.Read, Files.ReadWrite, Files.Read.All, Files.ReadWrite.All, Sites.Read.All, Sites.ReadWrite.All
-| Delegated (personal Microsoft account) | Not supported.
-| Application                            | Files.Read.All, Files.ReadWrite.All, Sites.Read.All, Sites.ReadWrite.All
+<!-- { "blockType": "permissions", "name": "driveitem_preview" } -->
+[!INCLUDE [permissions-table](../includes/permissions/driveitem-preview-permissions.md)]
 
 ## HTTP request
 

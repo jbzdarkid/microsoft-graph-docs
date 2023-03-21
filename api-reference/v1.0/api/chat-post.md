@@ -15,13 +15,10 @@ Create a new [chat](../resources/chat.md) object.
 > **Note:** Only one one-on-one chat can exist between two members. If a one-on-one chat already exists, this operation will return the existing chat and not create a new one.
 > 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Chat.Create, Chat.ReadWrite|
-|Delegated (personal Microsoft account) | Not supported. |
-|Application | Chat.Create |
+<!-- { "blockType": "permissions", "name": "chat_post" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chat-post-permissions.md)]
 
 ## HTTP request
 

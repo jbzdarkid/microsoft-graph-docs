@@ -15,13 +15,10 @@ Namespace: microsoft.graph
 
 Update the properties of formatprotection object.
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Files.ReadWrite    |
-|Delegated (personal Microsoft account) | Files.ReadWrite    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "formatprotection_update" } -->
+[!INCLUDE [permissions-table](../includes/permissions/formatprotection-update-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

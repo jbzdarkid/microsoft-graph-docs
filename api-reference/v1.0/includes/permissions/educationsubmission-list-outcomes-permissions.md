@@ -1,0 +1,10 @@
+---
+description: "Automatically generated file. DO NOT MODIFY"
+---
+
+|Permission type|Least privileged permission|Higher privileged permissions|
+|:---|:---|:---|
+|Delegated (work or school account)|EduAssignments.ReadBasic|EduAssignments.ReadWriteBasic, EduAssignments.Read, EduAssignments.ReadWrite|
+|Delegated (personal Microsoft account)|Not supported.|Not supported.|
+|Application|EduAssignments.ReadBasic.All|EduAssignments.Read.All, EduAssignments.ReadWrite.All, EduAssignments.ReadWriteBasic.All|
+

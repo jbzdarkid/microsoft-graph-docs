@@ -19,11 +19,8 @@ You must explicitly provide an `@odata.type` property that indicates whether the
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|EntitlementManagement.ReadWrite.All |
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|EntitlementManagement.Read.All EntitlementManagement.ReadWrite.All |
+<!-- { "blockType": "permissions", "name": "accesspackagecatalog_post_accesspackagecustomworkflowextensions" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accesspackagecatalog-post-accesspackagecustomworkflowextensions-permissions.md)]
 
 ## HTTP request
 

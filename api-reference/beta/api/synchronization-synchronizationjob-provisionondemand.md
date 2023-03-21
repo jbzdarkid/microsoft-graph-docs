@@ -16,11 +16,8 @@ Select a user and provision the account on-demand. The rate limit for this API i
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|Synchronization.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|Application.ReadWrite.OwnedBy, Synchronization.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "synchronization_synchronizationjob_provisionondemand" } -->
+[!INCLUDE [permissions-table](../includes/permissions/synchronization-synchronizationjob-provisionondemand-permissions.md)]
 
 [!INCLUDE [rbac-synchronization-apis](../includes/rbac-for-apis/rbac-synchronization-apis.md)]
 
